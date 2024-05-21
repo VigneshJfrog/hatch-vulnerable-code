@@ -14,7 +14,7 @@ dependencies = [
     "flask==1.0.2",        # Known vulnerabilities: CVE-2019-1010083, CVE-2018-1000656
     "requests==2.19.1",    # Known vulnerabilities: CVE-2018-18074
     "django==2.2.0",       # Known vulnerabilities: CVE-2019-12308, CVE-2019-6975
-    "ansible==9.6.0",      # Ansible dependency
+    "ansible==2.9.27",     # Compatible Ansible version
 ]
 
 [tool.hatch.envs.default]
@@ -22,7 +22,7 @@ dependencies = [
     "flask==1.0.2",
     "requests==2.19.1",
     "django==2.2.0",
-    "ansible==9.6.0",      # Ansible dependency
+    "ansible==2.9.27",     # Compatible Ansible version
 ]
 
 [tool.hatch.build.targets.wheel]
