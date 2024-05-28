@@ -26,5 +26,5 @@ dependencies = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["my_vulnerable_project"]
+packages = ["src/my_vulnerable_project"]
 
