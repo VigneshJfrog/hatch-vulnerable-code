@@ -21,7 +21,6 @@ dependencies = [
 ]
 
 [tool.hatch.envs.default]
-type = "default"
 dependencies = [
     "flask==1.0.2",
     "requests==2.19.1",
